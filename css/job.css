@@ -1,0 +1,44 @@
+.content{
+	display: grid;
+	grid-template-columns: 400px auto 700px;
+}
+legend{
+	width: 500px;
+}
+.advertigment{
+	width: 30px;
+	padding: 5%;
+	margin:2%;
+}
+.contact{
+	width: 30px;
+}
+.vacancy{
+	width: 30px;
+	padding: 2% 3% 6% 10%;
+}
+.vacancy h4{
+	display: flex;
+	width: 20px;
+}
+.vacancy img{
+	width: 400px;
+	padding: 4%;
+	margin:7%;
+}
+.advertigment img{
+	width: 400px;
+	padding: 4%;
+	margin:7%;
+}
+.contact{
+	padding: 9%;
+	width: 80%;
+}
+/*=======================================================================*/
+@media Screen and (max-width: 800px){
+	.content{
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+}
