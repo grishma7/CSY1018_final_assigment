@@ -3,6 +3,7 @@
 	grid-template-columns: 400px auto 700px;
 }
 legend{
+	justify-content: space-between;
 	width: 500px;
 }
 .advertigment{
@@ -18,18 +19,28 @@ legend{
 	padding: 2% 3% 6% 10%;
 }
 .vacancy h4{
-	display: flex;
-	width: 20px;
+	width: 500px;
+
 }
+.vacancy h4 a{
+	text-decoration: none;
+} 
 .vacancy img{
 	width: 400px;
 	padding: 4%;
 	margin:7%;
 }
+.advertigment h4{
+	width: 400px;
+	padding:3%;
+}
 .advertigment img{
 	width: 400px;
-	padding: 4%;
-	margin:7%;
+	padding: 8%;
+	margin:10%;
+}
+.advertigment h4 a{
+	text-decoration: none;
 }
 .contact{
 	padding: 9%;

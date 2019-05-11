@@ -102,11 +102,13 @@ body{
 } 
 .sub-menu ul li{
 	list-style: none;
+	padding-bottom: 5%;
 }
 .sub-menu ul li h4 a{
 	text-decoration: none;
+
 }
-/*end of right side sun menu*/
+/*end of right side sub menu*/
 /*===============================================================================*/
 .information{
 	display: grid;
