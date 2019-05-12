@@ -50,7 +50,7 @@ body{
 	text-decoration: none;
 }
 .sidebar ul li:hover{
-	background: red;
+	background: black;
 }
 /*========================================================================*/
 .main-content{
@@ -68,6 +68,9 @@ body{
 }
 .main-menu img{
 	padding: 1% 2% 3% 0%;
+}
+.main-menu p{
+	width: 100%
 }
 /*main menu section end*/
 .left-side{
